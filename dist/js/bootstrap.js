@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+define(['jquery'], function(jQuery){
+
 if (typeof jQuery === 'undefined') {
   throw new Error('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.')
 }
@@ -3527,3 +3529,5 @@ var Popover = function ($) {
 }(jQuery);
 
 }();
+  
+}); 
